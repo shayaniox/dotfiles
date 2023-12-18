@@ -1,0 +1,203 @@
+{
+    "editor.fontFamily": "JetBrains Mono",
+    // "editor.fontFamily": "Victor Mono",
+    // "editor.fontFamily": "Roboto Mono",
+    // "editor.fontFamily": "Ubuntu Mono",
+    // "editor.fontFamily": "Hack",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#1cbfff",
+        }
+    ],
+    "workbench.iconTheme": "vscode-icons",
+    "vim.foldfix": true,
+    // "editor.selectionHighlight": false
+    "editor.occurrencesHighlight": "off",
+    "go.lintOnSave": "package",
+    "workbench.welcomePage.hiddenCategories": [
+        "Setup",
+        "Beginner"
+    ],
+    "terminal.integrated.tabs.enabled": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "editor.tabSize": 4,
+    "editor.cursorStyle": "line",
+    "editor.insertSpaces": false,
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter-notebook",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "synthwave84.brightness": 2,
+    "go.testFlags": [
+        "-v",
+        "-count=1",
+        "-race"
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "redhat.telemetry.enabled": false,
+    "tabnine.experimentalAutoImports": true,
+    "cSpell.userWords": [
+        "addto",
+        "adto",
+        "adtos",
+        "amqp",
+        "CCPEDQ",
+        "Ctx's",
+        "dbresolver",
+        "explaination",
+        "grpc",
+        "gtfield",
+        "ltfield",
+        "newvpdto",
+        "oldvpdto",
+        "rabbitmq",
+        "setnx",
+        "sirupsen",
+        "smsator",
+        "smscommand",
+        "streadway",
+        "tadto",
+        "urlshortner",
+        "vendorlinkprovider",
+        "Vhost"
+    ],
+    "workbench.colorTheme": "Tokyo Night",
+    "editor.tokenColorCustomizations": {
+        "[Firefox Dark]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "keyword",
+                        "keyword.control",
+                        "keyword.operator",
+                        "keyword.other.template",
+                        "keyword.other.substitution",
+                        "storage.type.function.arrow",
+                        "constant.other.color",
+                        "punctuation.accessor",
+                        "entity.name.section",
+                        "markup.bold",
+                        "markup.bold string",
+                        "markdown.heading",
+                        "markup.inline.raw punctuation.definition.raw",
+                        "markup.heading",
+                        "storage.type.function.pug",
+                        "storage.type.function.python",
+                        "storage.type.annotation",
+                        "punctuation.bracket.angle",
+                        "keyword.other.new",
+                        "punctuation.separator.question-mark.cs",
+                        "storage.type.generic.wildcard",
+                        "source.go keyword.operator",
+                        "punctuation.separator.namespace",
+                        "constant.other.symbol.ruby punctuation.definition.constant.ruby",
+                        "variable.parameter",
+                        "support.function.builtin.rust",
+                        "storage.type.function.coffee",
+                        "entity.name.variable.parameter",
+                        "punctuation.separator.hash.cs",
+                        "constant.other.symbol.ruby punctuation.definition.constant.ruby",
+                        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+                        "meta.function.parameters variable.other",
+                        "entity.name.type.annotation.kotlin",
+                        "storage.type.objc",
+                        "parameter.variable.function",
+                        "markup punctuation.definition",
+                        "punctuation.section.directive",
+                        "punctuation.definition.preprocessor",
+                        "source.ruby punctuation.definition.variable",
+                        "punctuation.separator.method",
+                        "support.function.textbf",
+                        "source.graphql support.type.builtin",
+                        "source.ocaml variable.interpolation string",
+                        "entity.name.function.definition.special.constructor",
+                        "entity.name.function.definition.special.member.destructor.",
+                        "meta.function.parameters variable punctuation.definition.variable.php",
+                        "source.wsd keyword.other.activity",
+                        "keyword.control.class.ruby",
+                        "keyword.control.def.ruby",
+                        "keyword.function.go",
+                        "keyword.other.fn.rust",
+                        "markup.other.anchor",
+                        "markup.list.bullet",
+                        "markup.list punctuation.definition"
+                    ],
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.assignment",
+                    "settings": {
+                        "foreground": "#86f0a6"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.language"
+                    ],
+                    "settings": {
+                        "foreground": "#ff8ba8"
+                    }
+                },
+            ]
+        }
+    },
+    // "go.coverOnSave": false,
+    // "go.coverageDecorator": {
+    //     "type": "gutter",
+    //     "coveredHighlightColor": "rgba(64,128,128,0.5)",
+    //     "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+    //     "coveredGutterStyle": "blockgreen",
+    //     "uncoveredGutterStyle": "blockred"
+    // },
+    // "go.coverOnSingleTest": true
+    "gitlab.instanceUrl": "https://git.snappfood.ir",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.minimap.enabled": false,
+    "codesnap.realLineNumbers": true,
+    "codesnap.backgroundColor": "",
+    "codesnap.transparentBackground": true,
+    "codesnap.containerPadding": "0",
+    "go.testEnvVars": {
+        "DB_TEST": "root:secret@(localhost:49154)/mysql?timeout=5s&tls=false&parseTime=true",
+    },
+    "thunder-client.codeSnippetLanguage": "curl",
+    "sync.gist": "97c92202f007a52983086d225ce4e770",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php"
+    ],
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.autoUpdate": false,
+    "sqltools.autoOpenSessionFiles": false,
+    "gitlens.mode.active": "zen",
+    "sqltools.flattenGroupsIfOne": true,
+    "sqltools.results.reuseTabs": "connection",
+    "database-client.bindConnectionByActiveMark": false,
+    "database-client.autoPagingSQL": false,
+    "database-client.autoGetTableCount": false,
+    "database-client.executeCursorSQLByShortcut": false,
+    "sqltools.connections": [],
+    "csv-preview.formatValues": "never",
+    "csv-preview.numberFormat": "D",
+    "window.zoomLevel": 1,
+}
