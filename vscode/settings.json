@@ -1,11 +1,10 @@
 {
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
     // "editor.fontFamily": "Victor Mono",
     // "editor.fontFamily": "Roboto Mono",
     // "editor.fontFamily": "Ubuntu Mono",
     // "editor.fontFamily": "Hack",
     "editor.fontLigatures": true,
-    "editor.fontSize": 14,
     "terminal.integrated.fontSize": 14,
     "editor.rulers": [
         {
@@ -161,7 +160,6 @@
     //     "uncoveredGutterStyle": "blockred"
     // },
     // "go.coverOnSingleTest": true
-    "gitlab.instanceUrl": "https://git.snappfood.ir",
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.minimap.enabled": false,
     "codesnap.realLineNumbers": true,
@@ -174,7 +172,8 @@
     "thunder-client.codeSnippetLanguage": "curl",
     "sync.gist": "97c92202f007a52983086d225ce4e770",
     "[python]": {
-        "editor.formatOnType": true
+        "editor.formatOnType": true,
+        "diffEditor.ignoreTrimWhitespace": false
     },
     "vsicons.dontShowNewVersionMessage": true,
     "terminal.integrated.enableMultiLinePasteWarning": false,
@@ -196,8 +195,35 @@
     "database-client.autoPagingSQL": false,
     "database-client.autoGetTableCount": false,
     "database-client.executeCursorSQLByShortcut": false,
-    "sqltools.connections": [],
     "csv-preview.formatValues": "never",
     "csv-preview.numberFormat": "D",
     "window.zoomLevel": 1,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "http.noProxy": [
+        "http://127.0.0.1:2080"
+    ],
+    "http.proxy": "http://127.0.0.1:2080",
+    "github.copilot.enable": {
+        "*": false
+    },
+    "python.locator": "js",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "mcpServers": {},
+    "git.openRepositoryInParentFolders": "never",
+    "cody.net.proxy.endpoint": "http://127.0.0.1:2080",
+    "database-client.autoSync": true,
+    "git.blame.statusBarItem.enabled": true,
+    "git.blame.editorDecoration.enabled": true
 }

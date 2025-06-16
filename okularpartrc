@@ -1,0 +1,11 @@
+[Document]
+ChangeColors=true
+
+[General]
+ttsEngine=flite
+
+[Main View]
+SplitterSizes=147,1677
+
+[PageView]
+MouseMode=TextSelect

@@ -18,16 +18,8 @@
 		"command": "workbench.action.toggleMaximizedPanel"
 	},
 	{
-		"key": "shift+alt+[",
-		"command": "workbench.action.previousEditor"
-	},
-	{
 		"key": "ctrl+pageup",
 		"command": "-workbench.action.previousEditor"
-	},
-	{
-		"key": "shift+alt+]",
-		"command": "workbench.action.nextEditor"
 	},
 	{
 		"key": "ctrl+pagedown",
@@ -100,5 +92,77 @@
 		"key": "ctrl+e ctrl+e",
 		"command": "-workbench.action.quickOpen",
 		"when": "!config.sqltools.disableChordKeybindings && !editorHasSelection && !editorTextFocus"
+	},
+	{
+		"key": "ctrl+a ctrl+l",
+		"command": "vscode-augment.focusAugmentPanel"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "-vscode-augment.focusAugmentPanel"
+	},
+	{
+		"key": "ctrl+a ctrl+enter",
+		"command": "vscode-augment.next-edit.background.accept",
+		"when": "vscode-augment.enableNextEdit && vscode-augment.nextEdit.canAccept && activePanel == 'workbench.view.extension.augment-panel' || vscode-augment.enableNextEdit && vscode-augment.nextEdit.canAccept && activeViewlet == 'workbench.view.extension.augment-panel' || editorHoverFocused && vscode-augment.enableNextEdit && vscode-augment.nextEdit.canAccept && !suggestWidgetVisible || editorTextFocus && vscode-augment.enableNextEdit && vscode-augment.nextEdit.canAccept && !suggestWidgetVisible"
+	},
+	{
+		"key": "ctrl+enter",
+		"command": "-vscode-augment.next-edit.background.accept",
+		"when": "vscode-augment.enableNextEdit && vscode-augment.nextEdit.canAccept && activePanel == 'workbench.view.extension.augment-panel' || vscode-augment.enableNextEdit && vscode-augment.nextEdit.canAccept && activeViewlet == 'workbench.view.extension.augment-panel' || editorHoverFocused && vscode-augment.enableNextEdit && vscode-augment.nextEdit.canAccept && !suggestWidgetVisible || editorTextFocus && vscode-augment.enableNextEdit && vscode-augment.nextEdit.canAccept && !suggestWidgetVisible"
+	},
+	{
+		"key": "ctrl+a ctrl+i",
+		"command": "vscode-augment.internal-dv.i",
+		"when": "vscode-augment.enableDebugFeatures && !editorReadonly && !terminalFocus || vscode-augment.internal-dv.enabled && !editorReadonly && !terminalFocus"
+	},
+	{
+		"key": "ctrl+i",
+		"command": "-vscode-augment.internal-dv.i",
+		"when": "vscode-augment.enableDebugFeatures && !editorReadonly && !terminalFocus || vscode-augment.internal-dv.enabled && !editorReadonly && !terminalFocus"
+	},
+	{
+		"key": "ctrl+a ctrl+;",
+		"command": "vscode-augment.next-edit.background.goto-hinting",
+		"when": "vscode-augment.enableNextEdit && vscode-augment.nextEdit.canGotoHinting && vscode-augment.nextEdit.enableGotoHinting"
+	},
+	{
+		"key": "ctrl+;",
+		"command": "-vscode-augment.next-edit.background.goto-hinting",
+		"when": "vscode-augment.enableNextEdit && vscode-augment.nextEdit.canGotoHinting && vscode-augment.nextEdit.enableGotoHinting"
+	},
+	{
+		"key": "ctrl+a ctrl+;",
+		"command": "vscode-augment.next-edit.background.next",
+		"when": "vscode-augment.enableNextEdit && vscode-augment.nextEdit.canNext && !vscode-augment.nextEdit.enableGotoHinting"
+	},
+	{
+		"key": "ctrl+;",
+		"command": "-vscode-augment.next-edit.background.next",
+		"when": "vscode-augment.enableNextEdit && vscode-augment.nextEdit.canNext && !vscode-augment.nextEdit.enableGotoHinting"
+	},
+	{
+		"key": "ctrl+p ctrl+d",
+		"command": "debugpy.debugInTerminal"
+	},
+	{
+		"key": "ctrl+; ctrl+n",
+		"command": "workbench.action.terminal.focusNext",
+		"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+	},
+	{
+		"key": "ctrl+pagedown",
+		"command": "-workbench.action.terminal.focusNext",
+		"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+	},
+	{
+		"key": "ctrl+; ctrl+p",
+		"command": "workbench.action.terminal.focusPrevious",
+		"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+	},
+	{
+		"key": "ctrl+pageup",
+		"command": "-workbench.action.terminal.focusPrevious",
+		"when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
 	}
 ]

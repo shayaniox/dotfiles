@@ -84,6 +84,7 @@ call plug#end()
 " Basic options
 set scrolloff=5
 set mouse=a
+set t_Co=256
 set termguicolors
 set title
 set nofoldenable    " disable folding
